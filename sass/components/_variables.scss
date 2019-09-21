@@ -1,0 +1,12 @@
+// -------------------------------
+// Media screen breakpoints
+// -------------------------------
+$extra-small-screen-up: 320px !default;
+$small-screen-up: 601px !default;
+$medium-screen-up: 993px !default;
+$large-screen-up: 1201px !default;
+
+$small-and-up: "only screen and (min-width : #{$extra-small-screen-up})" !default;
+$medium-and-up: "only screen and (min-width : #{$small-screen-up})" !default;
+$large-and-up: "only screen and (min-width : #{$medium-screen-up})" !default;
+$extra-large-and-up: "only screen and (min-width : #{$large-screen-up})" !default;

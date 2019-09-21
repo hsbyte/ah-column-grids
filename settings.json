@@ -1,0 +1,13 @@
+// ------------------
+// Live Sass Settings
+// ------------------
+{
+    "liveSassCompile.settings.formats":[
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "~/../css/"
+        }
+    ],
+    "liveSassCompile.settings.generateMap": false
+}

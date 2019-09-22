@@ -112,7 +112,7 @@ Nested layout grid behaves exactly like when they are not nested, and possible f
 
 ###### Example: Two-Level Grids
 ```html
-<div class="contianer">
+<div class="container">
     <div class="row">
         <div class="col-12 xs12 l6">
             <div class="row">

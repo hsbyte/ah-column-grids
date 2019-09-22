@@ -15,15 +15,9 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 
-    &:after {
-        content: "";
-        clear: both;
-    }
-
-    /* 16 Grid */
     $sizes: 12,
-    16,
-    24;
+        16,
+        24;
 
     @each $size in $sizes {
 

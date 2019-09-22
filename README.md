@@ -12,6 +12,7 @@ contributor: Arnold Haban
 
 >A lightweight mobile-first responsive column-variate grid system using flexbox layout. Available columns are 12, 16 and 24 columns.
 
+
 ## Author
 
 * **Arnold Haban**
@@ -46,6 +47,7 @@ or
 }
 ```
 
+#
 ### Usage 
 
 >* **xs?** - for extra small screen devices, 319px and down.
@@ -55,10 +57,12 @@ or
 >* **xl?** - for extra large screen devices, 1200px and up.
 ><p><i>where ? equal to 12, 16 and 24 column grid sizes.</i></p>
 
+#
 ### HTML Structure
 
 Container is 90% width of up to 1920 pixels for all grid layouts. There are no paddings and gutters for all columns, bottom margin of 20 pixels for each rows.
 
+#
 ###### 12-Column Grid
 
 ![](.md/12-grid.png)
@@ -73,6 +77,7 @@ Container is 90% width of up to 1920 pixels for all grid layouts. There are no p
 </div>
 ```
 
+#
 ###### 16-Column Grid
 
 ![](.md/16-grid.png)
@@ -87,8 +92,7 @@ Container is 90% width of up to 1920 pixels for all grid layouts. There are no p
   </div>
 </div>
 ```
-
-
+#
 ###### 24-Column Grid
 
 ![](.md/24-grid.png)
@@ -103,7 +107,7 @@ Container is 90% width of up to 1920 pixels for all grid layouts. There are no p
   </div>
 </div>
 ```
-
+#
 #### Nested grid
 
 Nested layout grid behaves exactly like when they are not nested, and possible for mixed layouts such as combined 12-16, 12-24, 16-12-24 grid level layouts. However, it is not recommended for deeply nested grids.

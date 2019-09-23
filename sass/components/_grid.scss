@@ -1,48 +1,48 @@
 // -------------------------------
 // Grid components
 // -------------------------------
-.container {
+.column-grid {
     margin: 0 auto;
     max-width: 1920px;
     width: 90%;
-}
 
-.row {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    .row-wrap {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
 
-    $sizes: 12,
-        16,
-        24;
+        $sizes: 12,
+            16,
+            24;
 
-    @each $size in $sizes {
+        @each $size in $sizes {
 
-        .col-#{$size} {
-            box-sizing: border-box;
-            min-height: 1px;
+            .col-#{$size} {
+                box-sizing: border-box;
+                min-height: 1px;
 
-            @include col-grid-classes("xs", $size);
+                @include col-grid-classes("xs", $size);
 
-            @media #{$medium-and-up} {
-                @include col-grid-classes("s", $size);
+                @media #{$medium-and-up} {
+                    @include col-grid-classes("s", $size);
+                }
+
+                @media #{$medium-and-up} {
+                    @include col-grid-classes("m", $size);
+                }
+
+                @media #{$large-and-up} {
+                    @include col-grid-classes("l", $size);
+                }
+
+                @media #{$extra-large-and-up} {
+                    @include col-grid-classes("xl", $size);
+                }
+
             }
-
-            @media #{$medium-and-up} {
-                @include col-grid-classes("m", $size);
-            }
-
-            @media #{$large-and-up} {
-                @include col-grid-classes("l", $size);
-            }
-
-            @media #{$extra-large-and-up} {
-                @include col-grid-classes("xl", $size);
-            }
-
         }
     }
 }

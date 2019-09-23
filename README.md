@@ -68,8 +68,8 @@ Container is 90% width of up to 1920 pixels for all grid layouts. There are no p
 ![](.md/12-grid.png)
 
 ```html
-<div class="container">
-  <div class="row">
+<div class="column-grid">
+  <div class="row-wrap">
     <div class="col-12 s12 m4 l2 xl2"><!--your content here--></div>
     <div class="col-12 s12 m4 l6 xl8"><!--your content here--></div>
     <div class="col-12 s12 m4 l4 xl2"><!--your content here--></div>
@@ -83,8 +83,8 @@ Container is 90% width of up to 1920 pixels for all grid layouts. There are no p
 ![](.md/16-grid.png)
 
 ```html
-<div class="container">
-  <div class="row">
+<div class="column-grid">
+  <div class="row-wrap">
     <div class="col-16 xs16 m3 l4"><!--your content here--></div>
     <div class="col-16 xs16 m7 l4"><!--your content here--></div>
     <div class="col-16 xs16 m4 l4"><!--your content here--></div>
@@ -98,8 +98,8 @@ Container is 90% width of up to 1920 pixels for all grid layouts. There are no p
 ![](.md/24-grid.png)
 
 ```html
-<div class="container">
-  <div class="row">
+<div class="column-grid">
+  <div class="row-wrap">
     <div class="col-24 xs24 m1 xl6"><!--your content here--></div>
     <div class="col-24 xs24 m12 xl8"><!--your content here--></div>
     <div class="col-24 xs24 m8 xl8"><!--your content here--></div>
@@ -116,8 +116,8 @@ Nested layout grid behaves exactly like when they are not nested, and possible f
 
 ###### Example: Two-Level Grids
 ```html
-<div class="container">
-    <div class="row">
+<div class="column-grid">
+    <div class="row-wrap">
         <div class="col-12 xs12 l6">
             <div class="row">
                 <div class="col-12 l6 xl3"><!--your content here--></div>
@@ -127,7 +127,7 @@ Nested layout grid behaves exactly like when they are not nested, and possible f
             </div>
         </div>
         <div class="col-12 xs12 l6">
-            <div class="row">
+            <div class="row-wrap">
                 <div class="col-12 l6 xl3"><!--your content here--></div>
                 <div class="col-12 l6 xl3"><!--your content here--></div>
                 <div class="col-12 l6 xl3"><!--your content here--></div>

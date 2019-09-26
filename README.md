@@ -8,9 +8,9 @@ contributor: Arnold Haban
 -->
 # Column Grids
 
-![](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![](https://img.shields.io/badge/version-1.0.1-blue.svg)
 
->A lightweight mobile-first responsive column-variate grid system using flexbox layout. Available columns are 12, 16 and 24 columns.
+>A lightweight mobile-first responsive column-variate grid system using flexbox layout. Available columns are 12, 16, 18 and 24 columns.
 
 
 ## Author
@@ -143,3 +143,5 @@ Nested layout grid behaves exactly like when they are not nested, and possible f
 </div>
 ```
 #
+#### Updates
+>Added 18-column grid.

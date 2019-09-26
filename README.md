@@ -19,7 +19,7 @@ contributor: Arnold Haban
 
 ## Getting Started
 
-To embed [CSS file](https://github.com/hsbyte/ah-column-grids/master/ah-column-grid.min.css) into a webpage, copy this code into the <head> of your HTML document. 
+To embed [CSS file](https://raw.githubusercontent.com/hsbyte/ah-column-grids/master/css/ah-column-grid.min.css) into a webpage, copy this code into the <head> of your HTML document. 
 
 ```html
 <link href="css/ah-column-grid.min.css" rel="stylesheet" type="text/css">

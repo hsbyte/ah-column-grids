@@ -28,7 +28,7 @@ or
 
 ```html
 <style>
-    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+    @import url('https://raw.githubusercontent.com/hsbyte/ah-column-grids/master/css/ah-column-grid.min.css');
 </style>
 ```
 ##### Live Sass Settings

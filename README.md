@@ -43,12 +43,7 @@ or
             "savePath": "~/../css/"
         }
     ],
-    "liveSassCompile.settings.generateMap": false,
-        "liveSassCompile.settings.generateMap": false,
-        "liveSassCompile.settings.autoprefix": [
-        "> 1%",
-        "last 2 versions"
-    ]
+    "liveSassCompile.settings.generateMap": false
 }
 ```
 
